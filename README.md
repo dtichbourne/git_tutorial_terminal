@@ -27,13 +27,16 @@ ls -al
 ## The guts of the Tutorial: The git add - commit - push pattern.                    
 git status 
 
-### add ALL the new/changed files/folders in this folder, note you can specify an individual file folder and probably a list too.
+- add ALL the new/changed files/folders in this folder, note you can specify an individual file folder and probably a list too.
                       
 git add .    
 
 git status
+                      
 git commit -m " Adds comments for added file(s) \n"
+                      
 git push
+                      
   
   
 
