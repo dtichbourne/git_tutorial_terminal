@@ -18,24 +18,28 @@ As I understand it, use git for organizing, storing, tracking changes/versions, 
 
 3. On MacOS, or linux I supose, you can use a variety unix/git commands:
 
-cd ~. 
+```cd ~. 
 git status
 pwd
 ls
 cd tf_stock1       <-  (this is a current project I am working on.)
 ls -al
+```
 ## The guts of the Tutorial: The git add - commit - push pattern.                    
-git status 
+
+One important command, is git status, note that it operates on your current folder, so make sure you are in the right folder at all times, you can have many different folders using git. If you had a heirarchy of folders you could probably create quite a pickle for yourself so I tend to have a flat folder structure, i.e. have a projects folder and then put all your projects under that folder and do git commands within each folder.
+                      
+ ```git status```
 
 - add ALL the new/changed files/folders in this folder, note you can specify an individual file folder and probably a list too.
                       
-git add .    
+```git add .    
 
 git status
                       
 git commit -m " Adds comments for added file(s) \n"
                       
-git push
+git push```
                       
   
   
