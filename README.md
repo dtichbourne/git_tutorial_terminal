@@ -27,19 +27,22 @@ ls -al
 ```
 ## The guts of the Tutorial: The git add - commit - push pattern.                    
 
-One important command, is git status, note that it operates on your current folder, so make sure you are in the right folder at all times, you can have many different folders using git. If you had a heirarchy of folders you could probably create quite a pickle for yourself so I tend to have a flat folder structure, i.e. have a projects folder and then put all your projects under that folder and do git commands within each folder.
+One important command, is "git status", note that it operates on your current folder, so make sure you are in the right folder at all times, you can have many different folders using git. If you had a heirarchy of folders you could probably create quite a pickle for yourself so I tend to have a flat folder structure, i.e. have a projects folder and then put all your projects under that folder and do git commands within each folder.
                       
  ```git status```
 
-- add ALL the new/changed files/folders in this folder, note you can specify an individual file folder and probably a list too.
+- Using "git add ." you add ALL the new/changed files/folders in this folder, note you can specify an individual file folder and probably a list too.
+- you must do the commit and push steps to complete the add.
                       
-```git add .    
+```
+git add .    
 
 git status
                       
 git commit -m " Adds comments for added file(s) \n"
                       
-git push```
+git push
+```
                       
   
   
